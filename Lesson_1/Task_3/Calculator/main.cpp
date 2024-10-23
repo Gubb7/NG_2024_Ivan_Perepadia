@@ -8,13 +8,15 @@ int main()
     int secondOperand;
     char operand;
 
-    cout << "Input first operand: " << endl;
+    cout << "This is simple calculator which supports 4 basic operations (+, -, *, /)";
+
+    cout << "Enter first number: " << endl;
     cin >> firstOperand;
 
-    cout << "Input second operand: " << endl;
+    cout << "Enter second number: " << endl;
     cin >> secondOperand;
 
-    cout << "Input operation" << endl;
+    cout << "Enter operation" << endl;
     cin >> operand;
 
     switch(operand)
